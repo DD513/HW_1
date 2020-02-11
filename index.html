@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Homework</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class ="block">
+            <form>
+                <div class="text">
+                    <label for="myname">名字：</label>
+                    <input type="text" class ="textblock">
+                </div>
+                <div class="text">
+                    <label for="birthday">生日：</label>
+                    <input type="date" class ="textblock">
+                </div>
+                <div class="text">
+                    <label for="mail">信箱：</label>
+                    <input type="text" class ="textblock">
+                </div>
+                <div class="text">
+                    <label for="password">密碼：</label>
+                    <input type="password" class ="textblock">
+                </div>
+                <div class="text">
+                    <label for="IQ">智商：</label>
+                    <input type="text" id="IQ" min="80" max="200">
+                </div>
+                <div class="text">
+                    <label for="resume">履歷：</label>
+                    <input type="file" id="resume">
+                </div>
+                <div class="text">
+                    <label for="up">秒懂進度：</label>
+                    <span><label for="HTML"><input type="checkbox" id="HTML">HTML</label></span>
+                    <span><label for="HTML"><input type="checkbox" id="CSS">CSS</label></span>
+                    <span><label for="HTML"><input type="checkbox" id="Jquery">Jquery</label></span>
+                    <span><label for="HTML"><input type="checkbox" id="layout">版面配置</label></span>
+                    <span><label for="HTML"><input type="checkbox" id="Bootstrap">Bootstrap</label></span>
+                    <span><label for="HTML"><input type="checkbox" id="BSRWD">Bootstrap+RWD</label></span>
+                </div>
+                <div class="text">
+                    <label for="hw">作業是否完成：</label>
+                    <input type="radio" name="hw">yes
+                    <input type="radio" name="hw">no
+                </div>
+                <div class="text">
+                    <label for="hw">作業完成時間：</label>
+                    <input type="time" value="12:00:00">
+                </div>
+                <div class="text">
+                    <label for="hw">喜歡這次的作業嗎：</label>
+                    <input type="range" min="0" max="100" class="control">
+                </div>
+                <div class="text">
+                    <label for="hw">對考試題目有什麼建議嗎：</label>
+                    <textarea rows="3" id="remarks"></textarea>
+                </div>
+                <div class="text">
+                    <input class="btn" type="reset" value="清除">
+                    <input class="btn" type="reset" value="送出">
+                </div>
+                <div>
+                    <input type="image" id="img" src="images/下載.jpg">
+                </div>
+            </form>
+            
+        </div>
+    </body>
+</html>
